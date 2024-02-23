@@ -1,8 +1,8 @@
 from network import WLAN,STA_IF
 
 # Network Setup
-ssid = 'OooO'
-password = 'a1234567'
+ssid = 'ชื่อไวไฟ'
+password = 'รหัสไวไฟ'
 wlan = WLAN(STA_IF)
 wlan.active(True)
 print('Connecting...')
@@ -14,7 +14,7 @@ print(wlan.ifconfig())
 # Import Library
 from linenotify import LineNotify
 # Set Line Token 
-line = LineNotify('vC5cVahBp0m4VUvfoF69cFazpPW4TGA1yakazhIANG0')
+line = LineNotify('Token_Line')
 # Notify text message 
 line.notify('Hello World!')
 # Notify sticker with message
