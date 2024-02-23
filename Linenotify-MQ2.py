@@ -3,8 +3,8 @@ import time
 from network import WLAN,STA_IF
 
 # Network Setup
-ssid = 'OooO'
-password = 'a1234567'
+ssid = 'ชื่อไวไฟ'
+password = 'รหัสไวไฟ'
 wlan = WLAN(STA_IF)
 wlan.active(True)
 print('Connecting...')
@@ -17,7 +17,7 @@ from linenotify import LineNotify
 mq2 = machine.ADC(34) # กำหนดขาที่อ่านค่าเซนเซอร์ MQ-2 ที่ขา 34
 
 # Set Line Token 
-line = LineNotify('vC5cVahBp0m4VUvfoF69cFazpPW4TGA1yakazhIANG0')
+line = LineNotify('Token_Line')
 
 while True:
     
